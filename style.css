@@ -8,6 +8,6 @@
 }
 .nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between 10px;
     align-items: center;
 }
