@@ -1,8 +1,5 @@
 .nav-bar {
-    justify-content: space-between;
-    align-items: center;
     padding: 10px 20px;
-    top: 0;
     border: 2px solid #E23A51;
 }
 .nav {
