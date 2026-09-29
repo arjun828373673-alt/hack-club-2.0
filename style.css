@@ -6,3 +6,6 @@
     top: 0;
     border: 2px solid #E23A51;
 }
+.nav {
+    display: flex;
+}
