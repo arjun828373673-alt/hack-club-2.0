@@ -2,6 +2,11 @@
     --bg-dark: #1a151d;
     --bg-red-glow:#3a1420;
     --bg-panel: #26232b;
+    --text-cream: #fff5ea;
+    --text-muted: #b9b2b8;
+    --hc-red: #ec3750;
+    --hc-red-line: #c8324a;
+    --rainbow: linear-gradient(90deg, #f1b81a, #33d6a6, #338eda, #a633d6);
 }
 .nav-bar {
     padding: 10px 20px;
