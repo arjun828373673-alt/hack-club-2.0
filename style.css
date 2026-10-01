@@ -25,7 +25,7 @@
     color: var(--text-cream);
  }
  .image-container {
-    display: flex;
+    display: blockS;
     text-align: center;
     gap: 20px;
     margin-top: 20px;
