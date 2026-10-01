@@ -8,18 +8,6 @@
     --hc-red-line: #c8324a;
     --rainbow: linear-gradient(90deg, #f1b81a, #33d6a6, #338eda, #a633d6);
 }
-.nav-bar {
-    padding: 10px 20px;
-    border: 2px solid #160305;
-}
-.nav {
-    display: flex;
-    justify-content: space-between;
-    padding: 0;
-    margin: 0;
-    gap: 10px;
-    list-style: none;
-}
  body {
     background: linear-gradient(180deg, var(--bg-dark)0%, var(--bg-dark)60%, var(--bg-red-glow)100%);
     color: var(--text-cream);
@@ -34,4 +22,14 @@
     text-align: center;
     margin-top: 20px;
     transform: translateY(-20px);
+}
+.join-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background: var(--hc-red);
+    color: var(--text-cream);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
