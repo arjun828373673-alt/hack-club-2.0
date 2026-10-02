@@ -17,6 +17,13 @@
     margin: 0 auto;
     padding: 20px;
  }
+ .content2 {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+ }
  .image-container {
     display: flex;
     justify-content: center;
