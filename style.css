@@ -46,3 +46,22 @@
     border-radius: 5px;
     cursor: pointer;
 }
+.join-button:hover {
+    background: var(--hc-red-line);
+}
+.event-section {
+   text-align: center;
+   overflow: hidden;
+   display: none;
+   background: var(--bg-panel);
+}
+.event {
+   margin: 20px auto;
+   padding: 20px;
+   background: var(--bg-panel);
+   border-radius: 10px;
+   max-width: 600px;
+}
+.event: hover {
+   background: var(--bg-red-glow);
+}
