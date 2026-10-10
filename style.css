@@ -49,7 +49,7 @@
 .join-button:hover {
     background: var(--hc-red-line);
 }
-#eventId {
+#event-id {
    text-align: center;
    overflow: hidden;
    background: var(--bg-panel);
