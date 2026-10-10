@@ -8,9 +8,9 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 });
 
-function showView(viewId) {
-    const view = document.getElementById(viewId);
+function showView(view-id) {
+    const view = document.getElementById(view-id);
     if (view) {
-        view.style.display = 'block';
+        view.style.display = "block";
     }
 }
