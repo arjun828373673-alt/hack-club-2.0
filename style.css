@@ -61,7 +61,8 @@
    background: var(--bg-panel);
    border-radius: 10px;
    max-width: 600px;
+   transition: background 0.3s ease;
 }
-.event: hover {
+.event:hover {
    background: var(--bg-red-glow);
 }
