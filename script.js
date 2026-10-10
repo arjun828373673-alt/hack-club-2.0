@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
     const joinButton = document.getElementById('join-btn');
-    if (join-Btn) {
-        join-btn.addEventListener('click', () => {
-            showView("eventId");
+    if (joinButton) {
+        joinButton.addEventListener('click', () => {
+            showView("event-id");
         });
 
     }
