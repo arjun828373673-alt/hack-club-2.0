@@ -53,6 +53,9 @@
    text-align: center;
    overflow: hidden;
    background: var(--bg-panel);
+   padding: 20px;
+}
+
 }
 .event {
    margin: 20px auto;
