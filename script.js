@@ -1,1 +1,1 @@
-document.getElementById("join-btn").addEventListener("click",() => showView("event-id"));
+document.getElementById("join-btn").addEventListener("click",() => showView("event-section"));
