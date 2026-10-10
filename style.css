@@ -52,7 +52,6 @@
 #event-id {
    text-align: center;
    overflow: hidden;
-   display: none;
    background: var(--bg-panel);
 }
 .event {
