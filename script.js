@@ -8,8 +8,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 });
 
-function showView(view-id) {
-    const view = document.getElementById(view-id);
+function showView(viewId) {
+    const view = document.getElementById(viewId);
     if (view) {
         view.style.display = "block";
     }
