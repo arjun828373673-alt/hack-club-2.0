@@ -1,16 +1,15 @@
 document.addEventListener('DOMContentLoaded', () => {
     const joinButton = document.getElementById('join-btn');
-    if (joinButton) {
+    const eventSection = document.getElementById('events-id');
+    if (joinButton && eventSection) {
         joinButton.addEventListener('click', () => {
-            showView("event-id");
-        });
+            eventSection.style.display = 'block';
 
+            eventSection.scrollIntoView({
+                 behavior: 'smooth',
+                 block: 'start'
+            });
+
+        });
     }
 });
-
-function showView(viewId) {
-    const view = document.getElementById(viewId);
-    if (view) {
-        view.scrollIntoView({ behavior: 'auto', block: 'start' });
-    }
-}
