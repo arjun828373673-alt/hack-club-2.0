@@ -11,6 +11,6 @@ document.addEventListener('DOMContentLoaded', () => {
 function showView(viewId) {
     const view = document.getElementById(viewId);
     if (view) {
-        view.style.display = "block";
+        view.scrollIntoView({ behavior: 'auto', block: 'start' });
     }
 }
